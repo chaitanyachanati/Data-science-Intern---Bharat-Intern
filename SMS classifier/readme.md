@@ -1,4 +1,3 @@
 ### Building SMS Spam Classifier Model
 Our main goal of this project is to create SMS Spam Classifier Model. We will be using the dataset for building our Machine Learning Model from here.
 
-In real world scenario, it is important for interpreting the how the model works and based on what the model is created. Therefore, to help us with that, we will first perform basic data cleaning (check for missing values, duplicated values, unwanted features etc) followed by exploratory data analysis. Then, we will perform data preprocessing and visualize the tokens further to understand how models will classify whether the sms message is spam or non-spam message. Note that the steps are not linear. Therefore, we will go back to the previous step if we find any inconsistency. Once done with this, we will be ready to create our machine learning model. After we are happy with our optimal model, we will be wrapping it with FastAPI, Dockerize it and deploy it in cloud.
